@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/RobotoRegular.woff2'),
+    url('../fonts/RobotoRegular.woff');
+  font-display: swap;
+  font-weight: 400;
+}
