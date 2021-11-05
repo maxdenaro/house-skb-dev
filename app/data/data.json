@@ -6,7 +6,12 @@
     "title": "Охота Амура",
     "props": "Холст, масло (50х80)",
     "price": 14500,
-    "cover":"./data/images/1.jpg"
+    "cover": {
+      "desktop": "./data/images/1.jpg",
+      "tablet": "./data/images/1-tablet.jpg",
+      "mini": "./data/images/1-mini.jpg",
+      "mobile": "./data/images/1-mobile.jpg"
+    }
   },
   {
     "id": 2,
@@ -15,7 +20,12 @@
     "title": "Дама с собачкой",
     "props": "Акрил, бумага (50х80)",
     "price": 16500,
-    "cover":"./data/images/2.jpg"
+    "cover": {
+      "desktop": "./data/images/2.jpg",
+      "tablet": "./data/images/2-tablet.jpg",
+      "mini": "./data/images/2-mini.jpg",
+      "mobile": "./data/images/2-mobile.jpg"
+    }
   },
   {
     "id": 3,
@@ -24,7 +34,12 @@
     "title": "Процедура",
     "props": "Цветная литография (40х60)",
     "price": 20000,
-    "cover":"./data/images/3.jpg"
+    "cover": {
+      "desktop": "./data/images/3.jpg",
+      "tablet": "./data/images/3-tablet.jpg",
+      "mini": "./data/images/3-mini.jpg",
+      "mobile": "./data/images/3-mobile.jpg"
+    }
   },
   {
     "id": 4,
@@ -33,7 +48,12 @@
     "title": "Роза",
     "props": "Бумага, акрил (50х80)",
     "price": 12000,
-    "cover":"./data/images/4.jpg"
+    "cover": {
+      "desktop": "./data/images/4.jpg",
+      "tablet": "./data/images/4-tablet.jpg",
+      "mini": "./data/images/4-mini.jpg",
+      "mobile": "./data/images/4-mobile.jpg"
+    }
   },
   {
     "id": 5,
@@ -42,7 +62,12 @@
     "title": "Птичья трапеза",
     "props": "Цветная литография (40х60)",
     "price": 22500,
-    "cover":"./data/images/5.jpg"
+    "cover": {
+      "desktop": "./data/images/5.jpg",
+      "tablet": "./data/images/5-tablet.jpg",
+      "mini": "./data/images/5-mini.jpg",
+      "mobile": "./data/images/5-mobile.jpg"
+    }
   },
   {
     "id": 6,
@@ -51,7 +76,12 @@
     "title": "Пейзаж с рыбой",
     "props": "Цветная литография (40х60)",
     "price": 20000,
-    "cover":"./data/images/6.jpg"
+    "cover": {
+      "desktop": "./data/images/6.jpg",
+      "tablet": "./data/images/6-tablet.jpg",
+      "mini": "./data/images/6-mini.jpg",
+      "mobile": "./data/images/6-mobile.jpg"
+    }
   },
   {
     "id": 7,
@@ -60,7 +90,12 @@
     "title": "Над городом",
     "props": "Цветная литография (40х60)",
     "price": 16000,
-    "cover":"./data/images/7.jpg"
+    "cover": {
+      "desktop": "./data/images/7.jpg",
+      "tablet": "./data/images/7-tablet.jpg",
+      "mini": "./data/images/7-mini.jpg",
+      "mobile": "./data/images/7-mobile.jpg"
+    }
   },
   {
     "id": 8,
@@ -69,7 +104,12 @@
     "title": "Птенцы",
     "props": "Холст, масло (50х80)",
     "price": 14500,
-    "cover":"./data/images/8.jpg"
+    "cover": {
+      "desktop": "./data/images/8.jpg",
+      "tablet": "./data/images/8-tablet.jpg",
+      "mini": "./data/images/8-mini.jpg",
+      "mobile": "./data/images/8-mobile.jpg"
+    }
   },
   {
     "id": 9,
@@ -78,7 +118,12 @@
     "title": "Среди листьев",
     "props": "Цветная литография (40х60)",
     "price": 20000,
-    "cover":"./data/images/9.jpg"
+    "cover": {
+      "desktop": "./data/images/9.jpg",
+      "tablet": "./data/images/9-tablet.jpg",
+      "mini": "./data/images/9-mini.jpg",
+      "mobile": "./data/images/9-mobile.jpg"
+    }
   },
   {
     "id": 10,
@@ -87,7 +132,12 @@
     "title": "Яркая птица",
     "props": "Цветная литография (40х60)",
     "price": 13000,
-    "cover":"./data/images/10.jpg"
+    "cover": {
+      "desktop": "./data/images/10.jpg",
+      "tablet": "./data/images/10-tablet.jpg",
+      "mini": "./data/images/10-mini.jpg",
+      "mobile": "./data/images/10-mobile.jpg"
+    }
   },
   {
     "id": 11,
@@ -96,7 +146,12 @@
     "title": "Дятлы",
     "props": "Бумага, акрил (50х80)",
     "price": 20000,
-    "cover":"./data/images/11.jpg"
+    "cover": {
+      "desktop": "./data/images/11.jpg",
+      "tablet": "./data/images/11-tablet.jpg",
+      "mini": "./data/images/11-mini.jpg",
+      "mobile": "./data/images/11-mobile.jpg"
+    }
   },
   {
     "id": 12,
@@ -105,7 +160,12 @@
     "title": "Большие воды",
     "props": "Бумага, акрил (50х80)",
     "price": 23000,
-    "cover":"./data/images/12.jpg"
+    "cover": {
+      "desktop": "./data/images/12.jpg",
+      "tablet": "./data/images/12-tablet.jpg",
+      "mini": "./data/images/12-mini.jpg",
+      "mobile": "./data/images/12-mobile.jpg"
+    }
   },
   {
     "id": 13,
@@ -114,7 +174,12 @@
     "title": "Дикий зверь",
     "props": "Акварель, бумага (50х80)",
     "price": 19500,
-    "cover":"./data/images/13.jpg"
+    "cover": {
+      "desktop": "./data/images/13.jpg",
+      "tablet": "./data/images/13-tablet.jpg",
+      "mini": "./data/images/13-mini.jpg",
+      "mobile": "./data/images/13-mobile.jpg"
+    }
   },
   {
     "id": 14,
@@ -123,7 +188,12 @@
     "title": "Скалистый берег",
     "props": "БЦветная литография (40х60)",
     "price": 17500,
-    "cover":"./data/images/14.jpg"
+    "cover": {
+      "desktop": "./data/images/14.jpg",
+      "tablet": "./data/images/14-tablet.jpg",
+      "mini": "./data/images/14-mini.jpg",
+      "mobile": "./data/images/14-mobile.jpg"
+    }
   },
   {
     "id": 15,
@@ -132,7 +202,12 @@
     "title": "Река и горы",
     "props": "Акварель, бумага (50х80)",
     "price": 20500,
-    "cover":"./data/images/15.jpg"
+    "cover": {
+      "desktop": "./data/images/15.jpg",
+      "tablet": "./data/images/15-tablet.jpg",
+      "mini": "./data/images/15-mini.jpg",
+      "mobile": "./data/images/15-mobile.jpg"
+    }
   },
   {
     "id": 16,
@@ -141,7 +216,12 @@
     "title": "Белый попугай",
     "props": "Цветная литография (40х60)",
     "price": 15500,
-    "cover":"./data/images/16.jpg"
+    "cover": {
+      "desktop": "./data/images/16.jpg",
+      "tablet": "./data/images/16-tablet.jpg",
+      "mini": "./data/images/16-mini.jpg",
+      "mobile": "./data/images/16-mobile.jpg"
+    }
   },
   {
     "id": 17,
@@ -150,7 +230,12 @@
     "title": "Ночная рыба",
     "props": "Бумага, акрил (50х80)",
     "price": 12500,
-    "cover":"./data/images/17.jpg"
+    "cover": {
+      "desktop": "./data/images/17.jpg",
+      "tablet": "./data/images/17-tablet.jpg",
+      "mini": "./data/images/17-mini.jpg",
+      "mobile": "./data/images/17-mobile.jpg"
+    }
   },
   {
     "id": 18,
@@ -159,6 +244,11 @@
     "title": "Рыжий кот",
     "props": "Цветная литография (40х60)",
     "price": 21000,
-    "cover":"./data/images/18.jpg"
+    "cover": {
+      "desktop": "./data/images/18.jpg",
+      "tablet": "./data/images/18-tablet.jpg",
+      "mini": "./data/images/18-mini.jpg",
+      "mobile": "./data/images/18-mobile.jpg"
+    }
   }
 ]

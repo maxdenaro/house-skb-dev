@@ -21,7 +21,12 @@ const loadCatalog = (country) => {
 
             <li class="catalog__item">
               <article class="product">
-                <img src="${item.cover}" alt="${item.title}" class="product__image">
+                <picture>
+                <source srcset="${item.cover.mobile}" media="(max-width: 480px)">
+                  <source srcset="${item.cover.mini}" media="(max-width: 700px)">
+                  <source srcset="${item.cover.tablet}" media="(max-width: 768px)">
+                  <img src="${item.cover.desktop}" alt="${item.title}" class="product__image">
+                </picture>
                 <div class="product__content">
                   <span class="product__author">${item.author}</span>
                   <h3 class="product__title">${item.title}</h3>
@@ -49,5 +54,25 @@ catalogBtns.forEach(el => {
     e.currentTarget.classList.add('catalog-tabs__btn--active');
 
     loadCatalog(country);
+  });
+});
+
+
+const burger = document.querySelector('.burger');
+const menu = document.querySelector('.header__nav');
+const body = document.body;
+const menuLinks = document.querySelectorAll('.nav__link');
+
+burger.addEventListener('click', (e) => {
+  e.currentTarget.classList.toggle('burger--active');
+  menu.classList.toggle('header__nav--active');
+  body.classList.toggle('stop-scroll');
+});
+
+menuLinks.forEach(el => {
+  el.addEventListener('click', (e) => {
+    burger.classList.remove('burger--active');
+    menu.classList.remove('header__nav--active');
+    body.classList.remove('stop-scroll');
   });
 });
